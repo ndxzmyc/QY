@@ -18,17 +18,15 @@
 
 # 订阅链接示例参考！如下：
 
-- Trojan账号001：[订阅链接]---> ( https://raw.githubusercontent.com/QY-vpn/Trojan/master/001 )。
+- Trojan账号：[订阅链接]---> ( https://raw.githubusercontent.com/ndxzmyc/QY/main/trojan/Qv2ray.V2ray.WinXray_Trojan_20GB.txt )。
 
-- Trojan账号002：[订阅链接]---> ( https://raw.githubusercontent.com/QY-vpn/Trojan/master/002 )。
-
-- Trojan账号003：[订阅链接]---> ( https://raw.githubusercontent.com/QY-vpn/Trojan/master/003 )。
+- Trojan账号001：[订阅链接]---> ( https://raw.githubusercontent.com/ndxzmyc/QY/main/trojan/Qv2ray.V2ray.WinXray_Trojan_001.txt )。
 
 - Trojan账号yaml：[订阅链接]---> ( https://raw.githubusercontent.com/ndxzmyc/QY/main/trojan/Clash.NET_Trojan_20GB.yaml )。
 
-- Trojan-go账号001：[订阅链接]---> ( https://raw.githubusercontent.com/QY-vpn/Trojan/master/001 )。
+- Trojan-go账号：[订阅链接]---> ( https://raw.githubusercontent.com/ndxzmyc/QY/main/trojan_go/Qv2ray_Trojan-go_20GB.txt )。
 
-- Trojan-go账号002：[订阅链接]---> ( https://raw.githubusercontent.com/QY-vpn/Trojan/master/002 )。
+- Trojan-go账号001：[订阅链接]---> ( https://raw.githubusercontent.com/ndxzmyc/QY/main/trojan_go/Qv2ray_Trojan-go_001.txt )。
 
 # - 声明：美国节点，速度最快！！！
 
