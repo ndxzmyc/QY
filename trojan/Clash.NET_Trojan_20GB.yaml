@@ -5,67 +5,60 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org, server: us-trojan.bonds.id, port: 443, type: trojan, password: ed093da0-200c-11ec-895d-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn, server: us-trojan.bonds.id, port: 443, type: trojan, password: 884bf350-200d-11ec-af46-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com, server: us-trojan.bonds.id, port: 443, type: trojan, password: bf29b890-200d-11ec-8173-1239d0255272, sni: us-trojan.bonds.id}
-  - {name: 🇺🇸 us-trojan.bonds.id:443/www.udemy.com, server: us-trojan.bonds.id, port: 443, type: trojan, password: 07c148f0-200e-11ec-bb53-1239d0255272, sni: us-trojan.bonds.id}
+  - {name: 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com, server: us-trojan.bonds.id, port: 443, type: trojan, password: 313f1510-2e59-11ec-9fde-1239d0255272, sni: us-trojan.bonds.id}
+  - {name: fr-trojan.bonds.id:443/www.mutualser.org, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 428e3fb0-2e5a-11ec-9941-1239d0255272, sni: fr-trojan.bonds.id}
+  - {name: 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn, server: us-trojan.bonds.id, port: 443, type: trojan, password: 2510ebd0-2e5b-11ec-b996-1239d0255272, sni: us-trojan.bonds.id}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +81,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 us-trojan.bonds.id:443/www.mutualser.org
+      - 🇺🇸 us-trojan.bonds.id:443/badges.instagram.com
+      - fr-trojan.bonds.id:443/www.mutualser.org
       - 🇺🇸 us-trojan.bonds.id:443/mp3.zing.vn
-      - 🇺🇸 us-trojan.bonds.id:443/afiliados.mutualser.com
-      - 🇺🇸 us-trojan.bonds.id:443/www.udemy.com
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
